@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<script defer src="main.js"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <section class="header-section">
+        <nav>
+<h1 class="logo">DANIEL</h1>       
+     <div class="nav-links" id="nav-link">
+            <!-- <img src="./Image/xmark-solid.svg" class="close-btn" onclick="hideMenu()"> -->
+            <ul>
+            <li> <a href="">Home</a></li>
+            <li> <a href="">About me</a></li>
+            <li> <a href="">Portfolio</a></li>
+            <li> <a href="">Services</a></li>
+            <li> <a href="">Contact</a></li>
+
+        </ul>   
+        </div>
+        
+       
+        </nav>
+
+        <div class="menubar">
+            <div class="row">
+                <div class="logo-content">
+                    <h1 class="logo">DANIEL</h1>       
+                </div>
+            <!-- <div class="nav__menu__btn" id="menu-btn" onclick="toggleMenu()"> -->
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+         
+            </div>
+          <ul class="respo__links" id="respo-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="marketsquare.html">Portfolio</a></li>
+            <li><a href="contest.html">Services</a></li>
+            <li><a href="gallery.html">Careers</a></li>
+            <!-- <li><a href="faq.html">FAQ</a></li> -->
+        </ul>
+            </div>
+
+                <div class="header">
+                    <div class="description">
+                        <h1 class="full-name">MEET <span>ME</span></h1>
+                        <h5 class="full-details">Full stack developer and mobile developer</h5>
+                        <a class="hire-me-button" href="">Hire me</a>
+                    </div>
+                </div>
+                
+    </section>
+
+    <section class="hidden">
+        <h1 class="above-header">MOBILE FRIENDLY AND INTUITIVE WEBSITE FOR YOUR BUSINESS</h1>
+    <div class="space"> <div class="about-me">
+        <h1>About me</h1>
+        <div class="cover">
+            <h5> DANIEL VICTOR EKPENYONG</h5>
+            <p class="full-details">I'm a fullstack web developer with years of experience in building interactive website applications  for business infrastructure to scale online <br> and sustain brand significance </p>
+    </div>
+    </div>
+        </div>
+    </section>
+    
+
+    <section class="hidden">
+        <div class="features"> 
+            <h1 class="title">What i can do for you</h1>
+            <div class="feature-block">
+                <div class="row-2">
+                    <div class="feature-col hidden">
+                        <!-- <i class="fa-brands fa-webflow"></i> -->
+                        <img src="./Image/frontend-icon.png" alt="">
+                        <h1>Front-End Development</h1>
+                        <ul>
+                            <li>HTML 5</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                      
+                    </div>
+                    <div class="feature-col hidden">
+                        <img src="./Image/backend-icons.png" alt="">
+                        <h1>Back-end development</h1>
+                        <ul>
+                            <li>Django</li>
+                        </ul>
+                    </div>
+                    <div class="feature-col hidden">
+                        <img src="./Image/mobile.png" alt="">
+                        <h1>Mobile Optimization</h1>
+                        <p>Optimize your complete website for mobile platform and gain ranking for your website in google search algorithm</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    
+    </section>
+        
+    <!-- <footer>
+        <div class="footer-col">
+            <h2>Contact me Today</h2>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <p>Divan World Technologies</p>
+        </div>
+
+        <div class="footer-col">
+            <h2>Let's Talk</h2>
+        </div>
+            <div class="whatsapp-col">
+            <i class="fa-brands fa-whatsapp"></i>
+            <p>08108444322</p>
+            </div>
+       
+    </footer>
+
+    <script src="https://kit.fontawesome.com/dabbfa984a.js" crossorigin="anonymous"></script> -->
+    <script>
+        let menuLinks = document.getElementById("respo-links")
+    
+    function toggleMenu(){
+        menuLinks.classList.toggle('show-menu');
+    }
+    </script>
+</body>
+</html>
